@@ -446,7 +446,7 @@ public class DemoDataSeeder implements CommandLineRunner {
             u.setEmail(us.email());
             u.setFullName(us.fullName());
             u.setEnabled(true);
-            u.setRoles(List.of(role));
+            u.setRoles(Set.of(role));
             return userRepository.save(u);
         });
     }
