@@ -1,0 +1,18 @@
+# Bi mat
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Build / dependency
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/.vercel/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
